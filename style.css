@@ -1,0 +1,251 @@
+/* ************************************************************************************** */
+/* Universal styles                                                                       */
+/* ************************************************************************************** */   
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    font-family:'Times New Roman', Times, serif
+    font-size: 16px;
+    font-weight: 400;
+    color: #363636;
+}
+
+p{
+    line-height: 190%;
+
+}
+
+a{
+    text-decoration: none;
+    color:yellow;
+}
+/* ************************************************************************************** */
+/* menu                                                                                   */
+/* ************************************************************************************** */ 
+#menu{
+    background-color: black;
+    height: 100px;
+}
+
+#menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+#menu li{
+    display: inline-block;
+}
+
+#menu a{
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 100px;
+    color:yellow;
+
+    padding: 0 40px;
+    border: none;
+    display: block;
+
+}
+menu a:hover{
+    background-color: #1abc9c;
+}
+/* ******************************************************* ******************************* */
+/* Header                                                                                   */
+/* ************************************************************************************** */
+
+#header{
+    padding: 10px 0px 10px 0px;
+    background-color: black;
+    text-align: center;
+}
+#header h1{
+    letter-spacing: 0.1em;
+    font-size: 44px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:yellow;
+    text-decoration:underline greenyellow;
+}
+#header p{
+    letter-spacing: 0.1em;
+    color:yellow;
+    font-size: 25px;
+    font-family: fantasy;
+}
+/* ******************************************************* ******************************* */
+/* Banner                                                                                   */
+/* ************************************************************************************** */
+#banner{
+    height: 300px;
+
+}
+#banner img{
+    width: 100%;
+    height: 300px;
+}
+
+/* ******************************************************* ******************************* */
+/* Page                                                                                   */
+/* ************************************************************************************* */
+
+#page{
+    min-height: 1000px;
+    padding: 20px;
+    background-color: black;
+}
+#page h2{
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+    color:greenyellow;
+    text-decoration: underline;
+}
+/* CONTENT */
+
+#content{
+    float: left;
+    width: 70%;
+}
+#content h3{
+    text-decoration: underline;
+    text-align: center;
+    font-family: monospace;
+    font-weight: 300;
+    font-size: 25px;
+    color:greenyellow;
+}
+#content p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    color: yellow;
+}
+#content img{
+    width: 100%;
+    height: 150px;
+    float:left;
+}
+#content li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 15px;
+    color:chartreuse;
+}
+
+/* SIDEBAR */
+
+#sidebar{
+    float: right;
+    width: 25%;
+    background-color: black;
+}
+/* LISTS */
+
+ul.styled{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul.styled li{
+    border-top: solid 1px yellow;
+    padding: 14px 0px;
+}
+
+/* ******************************************************* ******************************* */
+/* Footer                                                                                  */
+/* ************************************************************************************** */
+
+#footer{
+    width: 100%;
+    height: 340px;
+    background-color:black;
+    padding-top: 25px;
+    padding-left: 25px;
+    clear: both;
+}
+
+#footer h2{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color:yellow
+}
+
+#footer p{
+    color:yellow;
+}
+
+#footer a{
+    color:yellow;
+}
+
+#box1{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box2{
+    float: left;
+    width: 30%;
+    padding-right: 30px;
+}
+
+#box3{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+}
+
+/* ******************************************************* ******************************* */
+/* Form                                                                                  */
+/* ************************************************************************************** */
+
+#form{
+    background-color: aquamarine;
+}
+
+/* ******************************************************* ******************************* */
+/* Copyright                                                                                 */
+/* ************************************************************************************** */
+
+#copyright{
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    background-color: black;
+    padding-top: 55px;
+    clear: both;
+}
+
+#copyright p{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color:yellow;
+}
+
+/* ******************************************************* ******************************* */
+/* Gallery                                                                                */
+/* ************************************************************************************** */
+
+#Gallery img{
+    width: 120px;
+    margin: 12px;
+    -moz-transition: -moz-transform 0.5s ease-in;
+	-webkit-transition: -webkit-transform 0.5s ease-in;
+	-o-transition: -o-transform 0.5s ease-in;
+}
+
+#Gallery img:hover{
+    -moz-transform: scale(4);
+	-webkit-transform: scale(4);
+	-o-transform: scale(4);
+}
